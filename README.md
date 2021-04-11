@@ -167,3 +167,7 @@
 
 
 [Toda la documentación GIT](https://git-scm.com/docs)
+
+
+---
+Licencia: libre de uso by [Spectrasonic](https://twitter.com/spectrasonic117)
