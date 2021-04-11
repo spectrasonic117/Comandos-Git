@@ -4,14 +4,14 @@
 
 ## Tabla de Contenido
 
-- [Configuración inicial](##Configuracion%20inicial )
-- [Llevar los Archivos al Stage](##Llevar%20los%20Archivos%20al%20Stage)
-- [Comentar los archivos para mandar a repositorio](##Comentar%20los%20archivos%20para%20mandar%20a%20repositorio)
-- [Deshaciendo Cambios en el repositorio](##Deshaciendo%20Cambios%20en%20el%20repositorio)
-- [Historial de Cambios](##Historial%20de%20Cambios)
-- [Ramas](##Ramas)
-- [Unir Ramas](##Unir%20Ramas)
-- [Enviar archivos a Repositorio remoto](##Enviar%20archivos%20a%20Repositorio%20remoto)
+- [Configuración inicial](#configuraci-n-inicial)
+- [Llevar los Archivos al Stage](#llevar-los-archivos-al-stage)
+- [Comentar los archivos para mandar a repositorio](#comentar-los-archivos-para-mandar-a-repositorio)
+- [Deshaciendo Cambios en el repositorio](#deshaciendo-cambios-en-el-repositorio)
+- [Historial de Cambios](#historial-de-cambios)
+- [Ramas](#ramas)
+- [Unir Ramas](#unir-ramas)
+- [Enviar archivos a Repositorio remoto](#enviar-archivos-a-repositorio-remoto)
 
 <br>
 
@@ -157,7 +157,7 @@
 
 
 
-##Enviar archivos a Repositorio remoto
+## Enviar archivos a Repositorio remoto
 
 **git push origin master**
 - Envia los archivos a la rama master del repositorio remoto<
