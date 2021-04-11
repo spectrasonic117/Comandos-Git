@@ -6,7 +6,6 @@
 
 - [Configuración inicial](##Configuracion%20inicial )
 - [Llevar los Archivos al Stage](##Llevar%20los%20Archivos%20al%20Stage)
-- [Llevar los Archivos al Stage](##Llevar%20los%20Archivos%20al%20Stage)
 - [Comentar los archivos para mandar a repositorio](##Comentar%20los%20archivos%20para%20mandar%20a%20repositorio)
 - [Deshaciendo Cambios en el repositorio](##Deshaciendo%20Cambios%20en%20el%20repositorio)
 - [Historial de Cambios](##Historial%20de%20Cambios)
@@ -30,6 +29,9 @@
 
 ###### git init
 - Sirve para iniciar un repositorio local.
+
+###### git remote add origin 'link'
+- Linkea el repositorio local con el remoto
 
 [Documentación completa del comando 'git init'](https://git-scm.com/docs/git-init)
 [Documentación completa del comando 'git config'](https://git-scm.com/docs/git-config)
