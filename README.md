@@ -16,21 +16,21 @@
 <br>
 
 ## Configuración inicial
----
 
-###### git config --global init.defaultbranch "master"
+
+**git config --global init.defaultbranch "master"**
 - Determina la rama "master" como la principal.
 
-###### git config --global user.name "username"
+**git config --global user.name "username"**
 - Determina el nombre de usurario principal.
 
-###### git config --global user.email "email"
+**git config --global user.email "email"**
 - Determina el correo de usurario principal.
 
-###### git init
+**git init**
 - Sirve para iniciar un repositorio local.
 
-###### git remote add origin 'link'
+**git remote add origin 'link'**
 - Linkea el repositorio local con el remoto
 
 [Documentación completa del comando 'git init'](https://git-scm.com/docs/git-init)
@@ -38,18 +38,18 @@
 
 
 ## Llevar los Archivos al Stage
----
 
-###### git add .
+
+**git add .**
 - Agrega todos los archivos al Stage.
 
-###### git add \'archivo'
+**git add \'archivo'**
 - Sirve para añadir un archivo especifico al Stage.
 
-###### git rm --cached \'archivo'
+**git rm --cached \'archivo'**
 - Para remover un archivo especifico del Stage.
 
-###### git restore \'archivo'
+**git restore \'archivo'**
 - Para descartar los cambios del archivo en el directorio.
 
 [Documentación completa del comando 'git add'](https://git-scm.com/docs/git-add)
@@ -60,9 +60,8 @@
 
 
 ## Comentar los archivos para mandar a repositorio
----
 
-###### git commit
+**git commit**
 - Se abre el editor de texto VIM para poder hacer el comentario.
 	- *comentarios para el editor VIM*.
 	- **i** para editar.
@@ -71,10 +70,10 @@
 	- **q** para salir sin guardar.
 	- **w** para guardar.
 
-###### git commit -m "mensaje"
+**git commit -m "mensaje"**
 - Escribir directamente el mensaje sin pasar por el editor de texto.
 
-###### git commit -am "mensaje"
+**git commit -am "mensaje"**
 - Añade todos los archivos al repositorio y agrega comentario.
 	-No funciona si los archivos son nuevos, en ese caso tiene que uar "git add ." desde la raiz.
 
@@ -83,22 +82,21 @@
 
 
 ## Deshaciendo Cambios en el repositorio
----
 
-###### git checkout \'archivo'
+**git checkout \'archivo'**
 - Regresa al estado anterior al archivo.
 
-###### git checkout -f
+**git checkout -f**
 - Fuerza el regreso al estado anterior del archivo.
 
-###### git restore --staged \'archivo'
+**git restore --staged \'archivo'**
 - Quita el archivo del stage y lo regresa al área de trabajo.
 
-###### git checkout \'hash'
+**git checkout \'hash'**
 - regresa el espacio de trabajo al hash seleccionado.
 	-para ver el hash usar `git log`.
 
-###### git checkout master
+**git checkout master**
 - regresa el espacio de trabajo al al ultimo hash creado (mas reciente).
 
 
@@ -107,21 +105,20 @@
 
 
 ## Historial de Cambios
----
 
-###### git logs
+**git logs**
 - Muestra el historial de cambios del repositorio.
 
-###### git diff \'archivo'
+**git diff \'archivo'**
 - Muestra la diferencia de cambios entre el espacio de trabajo y el Stage.
 
-###### git diff --stat \'archivo'
+**git diff --stat \'archivo'**
 - Muestra información simple del del archivo.
 
-###### git diff --numstat \'archivo'
+**git diff --numstat \'archivo'**
 - Muestra información simple en números del del archivo.
 
-###### git log --oneline --all --graph --decorate
+**git log --oneline --all --graph --decorate**
 - Muestra una linea de tiempo gráfica del historial de cambios.
 
 
@@ -131,19 +128,18 @@
 
 
 ## Ramas
----
 
-###### git checkout -b "nombre de la rama"
+**git checkout -b "nombre de la rama"**
 - Crea una nueva Rama y te cambia a esa rama.
 
-###### git branch
+**git branch**
 - Muestra todas las ramas del repositorio.
 	- La rama que comiencecon `*` es la rama que esta seleccionada
 
-###### git branch -d \'nombre de la rama'
+**git branch -d \'nombre de la rama'**
 - Elimina la rama que hayas elegido
 
-###### git switch \'nombre de la rama'
+**git switch \'nombre de la rama'**
 - Te cambia a la rama que hayas elegido
 
 [Documentación completa del comando 'git branch'](https://git-scm.com/docs/git-branch)
@@ -151,9 +147,8 @@
 
 
 ## Unir Ramas
----
 
-###### git merge \'nombre de la rama'
+**git merge \'nombre de la rama'**
 - Une la rama que hayas seleccionado a la rama donde te encuentres
 
 
@@ -163,12 +158,11 @@
 
 
 ##Enviar archivos a Repositorio remoto
----
 
-###### git push origin master
+**git push origin master**
 - Envia los archivos a la rama master del repositorio remoto<
 
-###### git push origin 'branch'
+**git push origin 'branch'**
 - Envía los archivos a la rama que elijas del repositorio remoto
 
 
