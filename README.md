@@ -6,7 +6,7 @@
 ## Tabla de Contenido
 
 - <a href="#1">Configuración inicial</a>
-- <a href="#2">[Llevar los Archivos al Stage</a>
+- <a href="#2">Llevar los Archivos al Stage</a>
 - <a href="#3">Comentar los archivos para mandar a repositorio</a>
 - <a href="#4">Deshaciendo Cambios en el repositorio</a>
 - <a href="#5">Historial de Cambios</a>
