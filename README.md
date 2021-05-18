@@ -1,18 +1,18 @@
-# Comandos Básicos de Git (Guia EDTeam)
+# Comandos Básicos de Git (Guia EDTeam) <a id="up"/>
 
 <br>
 
 
 ## Tabla de Contenido
 
-- [Configuración inicial](##Configuración%20inicial)
-- [Llevar los Archivos al Stage](##Llevar%20los%20Archivos%20al%20Stage)
-- [Comentar los archivos para mandar a repositorio](##Comentar%20los%20archivos%20para%20mandar%20a%20repositorio)
-- [Deshaciendo Cambios en el repositorio](##Deshaciendo%20Cambios%20en%20el%20repositorio)
-- [Historial de Cambios](##Historial%20de%20Cambios)
-- [Ramas](##ramas)
-- [Unir Ramas](##unir%20ramas)
-- [Enviar archivos a Repositorio remoto](##enviar%20archivos%20a%20repositorio%20remoto)
+- <a href="#1">Configuración inicial</a>
+- <a href="#2">[Llevar los Archivos al Stage</a>
+- <a href="#3">Comentar los archivos para mandar a repositorio</a>
+- <a href="#4">Deshaciendo Cambios en el repositorio</a>
+- <a href="#5">Historial de Cambios</a>
+- <a href="#6">Ramas</a>
+- <a href="#7">Unir Ramas</a>
+- <a href="#8">Enviar archivos a Repositorio remoto</a>
 
 
 
@@ -26,8 +26,8 @@
 
 <br>
 
-## Configuración inicial
----
+## Configuración inicial <a id="1"/> <a href="#up">↑</a>
+
 
 `git config --global init.defaultbranch 'master'`
 - Determina la rama "master" como la principal.
@@ -44,11 +44,13 @@
 `git remote add origin 'link'`
 - Linkea el repositorio local con el remoto
 
-[Documentación completa del comando 'git init'](https://git-scm.com/docs/git-init)
-[Documentación completa del comando 'git config'](https://git-scm.com/docs/git-config)
+[Documentación completa del comando **git init**](https://git-scm.com/docs/git-init)
 
+[Documentación completa del comando **git config**](https://git-scm.com/docs/git-config)
 
-## Llevar los Archivos al Stage
+<br>
+
+## Llevar los Archivos al Stage <a id="2"/> <a href="#up">↑</a>
 
 
 `git add .`
@@ -63,14 +65,16 @@
 `git restore 'archivo'`
 - Para descartar los cambios del archivo en el directorio.
 
-[Documentación completa del comando 'git add'](https://git-scm.com/docs/git-add)
-[Documentación completa del comando 'git rm'](https://git-scm.com/docs/git-rm)
-[Documentación completa del comando 'git restore'](https://git-scm.com/docs/git-restore)
+[Documentación completa del comando **git add**](https://git-scm.com/docs/git-add)
+
+[Documentación completa del comando **git rm**](https://git-scm.com/docs/git-rm)
+
+[Documentación completa del comando **git restore**](https://git-scm.com/docs/git-restore)
 
 <br>
 
-## Comentar los archivos para mandar a repositorio
----
+## Comentar los archivos para mandar a repositorio <a id="3"/> <a href="#up">↑</a>
+
 `git commit`
 - Se abre el editor de texto VIM para poder hacer el comentario.
 	- *comentarios para el editor VIM*.
@@ -87,12 +91,12 @@
 - Añade todos los archivos al repositorio y agrega comentario.
 	-No funciona si los archivos son nuevos, en ese caso tiene que uar "git add ." desde la raiz.
 
-[Documentación completa del comando 'git commit'](https://git-scm.com/docs/git-commit)
+[Documentación completa del comando **git commit**](https://git-scm.com/docs/git-commit)
 
 <br>
 
-## Deshaciendo Cambios en el repositorio
----
+## Deshaciendo Cambios en el repositorio <a id="4"/> <a href="#up">↑</a>
+
 
 `git checkout 'archivo'`
 - Regresa al estado anterior al archivo.
@@ -111,12 +115,12 @@
 - regresa el espacio de trabajo al al ultimo hash creado (mas reciente).
 
 
-[Documentación completa del comando 'git checkout'](https://git-scm.com/docs/git-checkout)
+[Documentación completa del comando **git checkout**](https://git-scm.com/docs/git-checkout)
 
 <br>
 
-## Historial de Cambios
----
+## Historial de Cambios <a id="5"/> <a href="#up">↑</a>
+
 `git logs`
 - Muestra el historial de cambios del repositorio.
 
@@ -134,12 +138,12 @@
 
 
 
-[Documentación completa del comando 'git log'](https://git-scm.com/docs/git-log)
+[Documentación completa del comando **git log**](https://git-scm.com/docs/git-log)
 
 <br>
 
-## Ramas
----
+## Ramas <a id="6"/> <a href="#up">↑</a>
+
 `git checkout -b 'nombre de la rama'`
 - Crea una nueva Rama y te cambia a esa rama.
 
@@ -153,24 +157,24 @@
 `git switch 'nombre de la rama'`
 - Te cambia a la rama que hayas elegido
 
-[Documentación completa del comando 'git branch'](https://git-scm.com/docs/git-branch)
+[Documentación completa del comando **git branch**](https://git-scm.com/docs/git-branch)
 
 <br>
 
 
-## Unir Ramas
----
+## Unir Ramas <a id="7"/> <a href="#up">↑</a>
+
 `git merge 'nombre de la rama'`
 - Une la rama que hayas seleccionado a la rama donde te encuentres
 
 
-[Documentación completa del comando 'git branch'](https://git-scm.com/docs/git-merge)
+[Documentación completa del comando **git branch**](https://git-scm.com/docs/git-merge)
 
 
 <br>
 
-## Enviar archivos a Repositorio remoto
----
+## Enviar archivos a Repositorio remoto <a id="8"/> <a href="#up">↑</a>
+
 
 `git push origin master`
 - Envia los archivos a la rama master del repositorio remoto<
@@ -179,8 +183,8 @@
 - Envía los archivos a la rama que elijas del repositorio remoto
 
 
-[Toda la documentación GIT](https://git-scm.com/docs)
+[Toda la documentación **GIT**](https://git-scm.com/docs)
 
 
 ---
-Licencia: libre de uso by [Spectrasonic](https://twitter.com/spectrasonic117)
+Licencia: libre de uso by [**Spectrasonic**](https://twitter.com/spectrasonic117) <a href="#up">↑</a>
