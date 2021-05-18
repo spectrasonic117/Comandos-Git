@@ -24,8 +24,6 @@
 <br>
 <br>
 
-[[Dashboard|Regresar al Dashboard]]
-
 <br>
 
 ## Configuración inicial
