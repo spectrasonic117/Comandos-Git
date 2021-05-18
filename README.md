@@ -187,4 +187,8 @@
 
 
 ---
-Licencia: libre de uso by [**Spectrasonic**](https://twitter.com/spectrasonic117) <a href="#up">↑</a>
+Licencia: libre de uso by [**Spectrasonic**](https://twitter.com/spectrasonic117) 
+
+<bt>
+	
+<a href="#up">Regresar arriba</a>
